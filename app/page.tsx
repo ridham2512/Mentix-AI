@@ -1,10 +1,20 @@
-import {PricingTable} from "@clerk/nextjs";
+import CTASection from "@/components/landing/cta-section";
+import FeatureSection from "@/components/landing/feature-section";
+import HowItWorksSection from "@/components/landing/how-it-works-section";
+import PricingSection from "@/components/landing/pricing-section";
+import HeroSection from "@/components/landing/hero-section";
+import Footer from "@/components/layout/footer";
+
 
 export default function Home() {
   return (
     <div>
-    <h1> Hello next.js </h1>
-    <PricingTable/>
+      <HeroSection/>
+      <FeatureSection/>
+      <HowItWorksSection/>
+      <PricingSection/>
+      <CTASection/>  
+      <Footer/>
     </div>
   );
 }

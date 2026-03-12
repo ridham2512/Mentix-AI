@@ -11,6 +11,7 @@ import Header from "@/components/layout/header";
 
 import AuthButtons from "@/components/AuthButtons";
 import HeaderWrapper from "@/components/layout/header-wrapper";
+import Footer from "@/components/layout/footer";
 
 const outfitFont = Outfit({
   subsets: ["latin"],
@@ -35,7 +36,6 @@ export default function RootLayout({
             {/* <Header /> */}
             <HeaderWrapper />
           {children}
-
         </body>
       </html>
     </ClerkProvider>
