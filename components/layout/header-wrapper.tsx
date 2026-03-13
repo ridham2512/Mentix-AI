@@ -13,7 +13,7 @@ export default async function HeaderWrapper() {
         
         {/* Logo */}
         <Link href="/" className="font-bold text-xl space-x-2">
-          Meetsy
+          Mentix
         </Link>
 
         {/* Navigation + Auth UI */}

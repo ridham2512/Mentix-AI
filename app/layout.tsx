@@ -7,9 +7,7 @@ import "./globals.css";
 import {
   ClerkProvider,
 } from "@clerk/nextjs";
-import Header from "@/components/layout/header";
 
-import AuthButtons from "@/components/AuthButtons";
 import HeaderWrapper from "@/components/layout/header-wrapper";
 import Footer from "@/components/layout/footer";
 
@@ -36,6 +34,7 @@ export default function RootLayout({
             {/* <Header /> */}
             <HeaderWrapper />
           {children}
+          <Footer />
         </body>
       </html>
     </ClerkProvider>
