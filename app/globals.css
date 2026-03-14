@@ -144,11 +144,17 @@
     @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
   }
 
+  .section-description {
+    @apply text-center text-muted-foreground max-w-2xl mx-auto;
+  }
+
+
+
   .section-padding {
-    @apply py-24 py-32;
+    @apply py-32;
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-primary via-primary/80 to-primary bg-clip-text text-transparent;
+    @apply bg-linear-to-r from-primary via-primary/80 to-primary bg-clip-text text-transparent;
   }
 }

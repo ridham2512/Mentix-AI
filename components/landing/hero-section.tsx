@@ -13,8 +13,8 @@ export default function HeroSection() {
                     <Badge className = "mb-6 text-sm font-medium" variant="secondary"> Powered by AI 
                         <SparkleIcon className ="size-4 inline ml-2"/> 
                     </Badge>
-                <h1> Find Your Perfect AI Learnig Partner</h1>  
-                    <p>
+                <h1> Find Your Perfect <span className="block gradient-text">AI Learnig Partner</span></h1>  
+                    <p className="hero-subheading">
                         Join commmunities ,set your learning goals ,and get matched with partner who share your passion for learning. Chat ,collaborate and grow together with AI powered learning insights.
                     </p>                
                 <div className="flex flex-col sm:flex-row sm:justify-center gap-4 mt-8">
