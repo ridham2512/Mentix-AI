@@ -3,3 +3,4 @@
   "scss.lint.unknownAtRules": "ignore",
   "less.lint.unknownAtRules": "ignore"
 }
+// I have added the above settings to ignore linting errors for unknown at-rules in CSS, SCSS, and LESS files. This is useful when using custom at-rules or when working with frameworks that introduce their own at-rules.
