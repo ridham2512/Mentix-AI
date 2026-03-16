@@ -148,7 +148,17 @@
     @apply text-center text-muted-foreground max-w-2xl mx-auto;
   }
 
-
+.step-number {
+  background: #e79839;
+  color: rgb(26, 13, 2);
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
 
   .section-padding {
     @apply py-32;

@@ -136,7 +136,7 @@ export default function FeatureSection() {
                 {features.map((feature, idx) => (
                    <Card key={idx} className="border-2 hover:border-primary/50 transition-colors">
                     <CardHeader>
-                        <div className="feature=icon mb-4">
+                        <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 ">
                             {feature.icon}
                         </div>
                         <CardTitle>{feature.title}</CardTitle>
