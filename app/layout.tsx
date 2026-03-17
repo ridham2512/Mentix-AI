@@ -10,6 +10,7 @@ import {
 
 import HeaderWrapper from "@/components/layout/header-wrapper";
 import Footer from "@/components/layout/footer";
+import { QueryProvider } from "@/components/providers/query-provider";
 
 const outfitFont = Outfit({
   subsets: ["latin"],
@@ -32,9 +33,11 @@ export default function RootLayout({
       <html lang="en">
         <body className={`${outfitFont.className} antialiased`}>
             {/* <Header /> */}
+            <QueryProvider>
             <HeaderWrapper />
-          {children}
-          <Footer />
+            {children}
+            <Footer />
+          </QueryProvider>
         </body>
       </html>
     </ClerkProvider>
