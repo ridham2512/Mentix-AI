@@ -6,7 +6,7 @@ import HeroSection from "@/components/landing/hero-section";
 import BackgroundGradient from "@/components/landing/bakcground-gradient";
 import { MotionDiv } from "@/components/ui/motion-div";
 
-
+// this is the main landing page for the app, it will be shown when the user visits the root url of the app. It will contain a hero section, a feature section, a how it works section, a pricing section and a call to action section. Each section will have some animation when it comes into view.
 export default function Home() {
   return (
    <div className="relative min-h-screen">
