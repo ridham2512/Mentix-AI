@@ -3,6 +3,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /* Root Theme Variables */
+/* addeed the dark theme variables and the theme mapping for Tailwind. The base styles include global resets and typography settings, while the utilities provide reusable classes for layout and design consistency across the application. */
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.2686 0 0);
