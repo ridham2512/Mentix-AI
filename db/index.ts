@@ -8,7 +8,7 @@ import { Pool } from "pg";
 import * as schema from "./schema";
 
 const connectionString = process.env.DATABASE_URL;
-
+//updated the database connection logic to check for the presence of the DATABASE_URL environment variable and throw an error if it is not defined
 if (!connectionString) {
   throw new Error(
     "DATABASE_URL is not defined. Make sure to add it to your .env.local file."
