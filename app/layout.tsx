@@ -7,8 +7,7 @@ import "./globals.css";
 import {
   ClerkProvider,
 } from "@clerk/nextjs";
-
-//added query provider to the root layout so that we can use the query client in any component without having to wrap it in a provider. This is a common pattern for state management libraries like React Query, Redux, etc. It allows us to have a single source of truth for our data and makes it easier to manage and cache our data across the application.
+//updated the layout to include the header and footer components, and wrapped the content with the QueryProvider for data fetching capabilities.
 import HeaderWrapper from "@/components/layout/header-wrapper";
 import Footer from "@/components/layout/footer";
 import { QueryProvider } from "@/components/providers/query-provider";

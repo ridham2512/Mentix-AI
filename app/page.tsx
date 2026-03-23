@@ -6,7 +6,7 @@ import HeroSection from "@/components/landing/hero-section";
 import BackgroundGradient from "@/components/landing/bakcground-gradient";
 import { MotionDiv } from "@/components/ui/motion-div";
 
-//update the page layout and content to match your landing page design
+//updated the page layout and content to match your landing page design
 export default function Home() {
   return (
    <div className="relative min-h-screen">
