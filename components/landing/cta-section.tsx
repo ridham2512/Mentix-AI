@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 import Link from "next/link";
-
+//added and updated the CTA section to encourage users to sign up and try the platform for free
 export default function CtaSection() {
   return (
     <section className="section-container section-padding">
