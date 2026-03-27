@@ -1,6 +1,7 @@
 export default function MainLayout({
   children,
 }: {
+  //update this to React.ReactNode
   children: React.ReactNode;
 }) {
   return (
