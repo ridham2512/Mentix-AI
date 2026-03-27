@@ -128,7 +128,7 @@ export default function FeatureSection() {
     return (
         <section className="section-container">
             <div>
-                {/* // Improved hero section spacing and layout */}
+{/* //update this to use the SectionHeading component and pass in the title and description as props */}
                  <SectionHeading title="Everything you need to Learn Together" description="Powerful features designed to enhance your learning experience with the right partners" />
             </div>    
 
