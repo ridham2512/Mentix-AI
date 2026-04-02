@@ -3,7 +3,7 @@ import { Rocket, RocketIcon, SparkleIcon, ZapIcon } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { HeroGradient } from "./bakcground-gradient";
 import { Button } from "../ui/button";
-// Improved hero section spacing
+// update hero section content and styling as needed to fit your design and messaging.
 export default function HeroSection() {
     return (
         <section className="relative overflow-hidden">
