@@ -5,8 +5,7 @@ import PricingSection from "@/components/landing/pricing-section";
 import HeroSection from "@/components/landing/hero-section";
 import BackgroundGradient from "@/components/landing/bakcground-gradient";
 import { MotionDiv } from "@/components/ui/motion-div";
-
-//updated the page layout and content to match your landing page design
+//update the import paths based on your project structure
 export default function Home() {
   return (
    <div className="relative min-h-screen">

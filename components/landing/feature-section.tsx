@@ -34,6 +34,7 @@ const features = [
         strokeWidth="2"
         stroke="currentColor"
       >
+        
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
